@@ -1,4 +1,10 @@
+import os
+from pathlib import Path
 from blocks import markdown_to_html_node
+
+dir_path_content = "./content"
+dir_path_static = "./static"
+dir_path_public = "./public"
 
 def extract_title(markdown):
     if markdown.startswith("#"):
@@ -22,3 +28,17 @@ def generate_page(from_path, template_path, dest_path):
     replaced_content = template_content.replace("{{ Title }}", title).replace("{{ Content }}", html_string)
     with open(dest_path, "w") as file:
         file.write(replaced_content)
+    
+def generate_pages_recursive(dir_path_content, template_path, dest_dir_path):
+    if not os.path.exists(dest_dir_path):
+                os.mkdir(dest_dir_path)
+    for filename in os.listdir(dir_path_content):
+        from_path = os.path.join(dir_path_content, filename)
+        if os.path.isfile(from_path):
+            if filename.endswith(".md"):
+             transformed_file = Path(filename).with_suffix(".html")
+             dest_path = os.path.join(dest_dir_path, transformed_file)
+             generate_page(from_path, template_path, dest_path)
+        else :
+            new_dest_path = os.path.join(dest_dir_path, filename)
+            generate_pages_recursive(from_path, template_path, new_dest_path)

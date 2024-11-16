@@ -16,7 +16,7 @@ This series, a cornerstone of what I, in my many years as an **Archmage**, have 
 
 ## A Rich Tapestry of Lore
 
-One cannot simply discuss *The Lord of the Rings* without acknowledging the bedrock upon which it stands: **The Silmarillion**. This compendium of mythopoeic tales sets the stage for Middle-earth's history, from the creation myth of Eä to the epic sagas of the Elder Days. It is a testament to Tolkien's unparalleled skill as a linguist and myth-maker, crafting:
+One cannot simply discuss *The Lord of the Rings* without acknowledging the bedrock upon which it stands: The Silmarillion. This compendium of mythopoeic tales sets the stage for Middle-earth's history, from the creation myth of Eä to the epic sagas of the Elder Days. It is a testament to Tolkien's unparalleled skill as a linguist and myth-maker, crafting:
 
 1. [ ] An elaborate pantheon of deities (the `Valar` and `Maiar`)
 2. [ ] The tragic saga of the Noldor Elves
@@ -29,15 +29,15 @@ print("the")
 print("Rings")
 ```
 
-## The Art of **World-Building**
+## The Art of World-Building
 
 ### Crafting Middle-earth
 
 Tolkien's Middle-earth is a realm of breathtaking diversity and realism, brought to life by his meticulous attention to detail. This world is characterized by:
 
-- **Diverse Cultures and Languages**: Each race, from the noble Elves to the sturdy Dwarves, is endowed with its own rich history, customs, and language. Tolkien, leveraging his expertise in philology, constructed languages such as Quenya and Sindarin, each with its own grammar and lexicon.
-- **Geographical Realism**: The landscape of Middle-earth, from the Shire's pastoral hills to the shadowy depths of Mordor, is depicted with such vividness that it feels as tangible as our own world.
-- **Historical Depth**: The legendarium is imbued with a sense of history, with ruins, artifacts, and lore that hint at bygone eras, giving the world a lived-in, authentic feel.
+- Diverse Cultures and Languages: Each race, from the noble Elves to the sturdy Dwarves, is endowed with its own rich history, customs, and language. Tolkien, leveraging his expertise in philology, constructed languages such as Quenya and Sindarin, each with its own grammar and lexicon.
+- Geographical Realism: The landscape of Middle-earth, from the Shire's pastoral hills to the shadowy depths of Mordor, is depicted with such vividness that it feels as tangible as our own world.
+- Historical Depth: The legendarium is imbued with a sense of history, with ruins, artifacts, and lore that hint at bygone eras, giving the world a lived-in, authentic feel.
 
 ## Themes of *Timeless* Relevance
 
@@ -51,7 +51,7 @@ At its heart, *The Lord of the Rings* is a timeless narrative of the perennial s
 
 These universal themes lend the series a profound philosophical depth, making it a beacon of wisdom and insight for generations of readers.
 
-## A Legacy **Unmatched**
+## A Legacy Unmatched
 
 ### The Influence on Modern Fantasy
 
